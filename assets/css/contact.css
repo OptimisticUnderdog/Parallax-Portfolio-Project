@@ -72,15 +72,16 @@ header .logo {
   color: var(--primary-color);
 }
   
-.submit-btn {
-  width: 101%;
-  padding: 10px;
-  margin: 10px 0;
-  background-color: #16268d;
+.btn {
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+  margin: auto;
   color: #fff;
-  border: 2px solid var(--primary-color);
+  background-color: #362194;
+  border: 1px solid var(--primary-color);
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: var(--bold-font);
   transition: var(--transition);
 }

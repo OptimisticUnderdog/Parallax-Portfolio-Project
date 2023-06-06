@@ -29,6 +29,7 @@ header {
 
 header .logo {
     color: #fff;
+    mix-blend-mode: darken;
     font-weight: 800;
     text-decoration: none;
     font-size: 2em;
@@ -219,9 +220,10 @@ b {
     color: var(--primary-color);
 }
     
-.submit-btn {
+.btn {
     width: 100%;
-    padding: 10px;
+    text-align: center;
+    padding: 3px;
     margin: auto;
     color: #fff;
     background-color: #1e808086;
